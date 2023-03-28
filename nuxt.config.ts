@@ -2,6 +2,8 @@
 export default defineNuxtConfig({
     modules: [
       '@vueuse/nuxt',
+      '@nuxt/content',
+      '@pinia/nuxt',
     ],
     alias: {
       assets: "/<rootDir>/assets",
@@ -13,4 +15,5 @@ export default defineNuxtConfig({
           autoprefixer: {},
         },
     },
+    ssr: false
 })

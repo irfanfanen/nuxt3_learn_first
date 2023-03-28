@@ -1,6 +1,6 @@
 <template>
-    <div class="h-screen text-white bg-blue-900 CustomLayout">
-        <p>Def Page</p>
+    <div class="h-screen bg-gray-100 CustomLayout">
+        <!-- <p>Def Page</p> -->
         <slot />
     </div>
 </template>
